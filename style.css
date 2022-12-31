@@ -1,0 +1,96 @@
+.header-background {
+  background-color: rgb(67, 51, 82);
+  color: white;
+  font-size: 22px;
+}
+
+@media (max-width: 640px) {
+  .flex {
+    flex-direction: column;
+  }
+
+  .mr-6 {
+    margin-right: 0;
+    margin-bottom: 6px;
+    text-align: center;
+  }
+
+  .text-2xl {
+    font-size: 1.5rem;
+  }
+}
+
+.h2-index {
+  color: white;
+}
+
+.nav-hover:hover {
+  color: rgb(213, 175, 203);
+}
+
+.home-section {
+  background-color: rgba(196, 180, 212, 0.548);
+}
+
+/* Button style */
+.button-Home {
+  display: flex;
+  align-items: center;
+  margin: auto;
+  font-size: 16px;
+  font-weight: 600;
+  border-radius: 4px;
+  padding: 10px 20px;
+  transition: all 0.15s ease-in-out;
+}
+
+.button-Home {
+  color: #fff;
+  background-color: rgba(100, 79, 122, 0.548);
+  border-color: rgba(100, 79, 122, 0.548);
+}
+
+.button-Home:hover {
+  background-color: rgb(100, 79, 122);
+}
+
+.button-Home {
+  align-items: center;
+  padding: 25px;
+  font-size: 25px;
+}
+
+.about-background {
+  background-color: rgba(196, 180, 212, 0.548);
+}
+
+/* Image-About */
+.rock-anna {
+  border: 10px solid rgb(99, 94, 94);
+  background-color: rgba(100, 79, 122, 0.548);
+}
+
+.faith-img {
+  align-items: center;
+  filter: invert(23%) sepia(5%) saturate(23%) hue-rotate(24deg) brightness(99%) contrast(99%);
+}
+
+.h2-about {
+  color: white;
+  font-size: 35px;
+  background-color: rgba(100, 79, 122, 0.548);
+  border: 1px solid rgba(100, 79, 122, 0.548);
+  width: 100%;
+  height: auto;
+  padding: 25px;
+}
+
+.h3-about {
+  color: rgb(50, 50, 50);
+  font-size: 25px;
+}
+
+@media all and (min-width: 768px) {
+  
+  /* leave blank */
+}
