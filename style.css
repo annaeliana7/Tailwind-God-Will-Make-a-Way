@@ -37,27 +37,18 @@
   display: flex;
   align-items: center;
   margin: auto;
-  font-size: 16px;
   font-weight: 600;
   border-radius: 4px;
-  padding: 10px 20px;
   transition: all 0.15s ease-in-out;
-}
-
-.button-Home {
   color: #fff;
   background-color: rgba(100, 79, 122, 0.548);
   border-color: rgba(100, 79, 122, 0.548);
+  padding: 25px;
+  font-size: 25px;
 }
 
 .button-Home:hover {
   background-color: rgb(100, 79, 122);
-}
-
-.button-Home {
-  align-items: center;
-  padding: 25px;
-  font-size: 25px;
 }
 
 .about-background {
