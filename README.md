@@ -32,7 +32,7 @@
 
 # 📖 Tailwind-God Will Make a Way<a name="about-project"></a>
 
-**Tailwind-God Will Make a Way** ---WRITE DESCRIPTION---
+**Tailwind-God Will Make a Way** is a project I created to experiment with Tailwind CSS. The practice included styling the navbar and adding buttons, videos, images, and style. I chose this Tailwind project topic: God Will Make a Way.
 
 <br>
 
