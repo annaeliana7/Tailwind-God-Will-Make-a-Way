@@ -1,0 +1,146 @@
+body {
+  background-color: rgba(196, 180, 212, 0.548);
+}
+
+@media (max-width: 640px) {
+  /* Image-About */
+
+  .cartoon-contact {
+    max-width: 100%;
+    border-bottom: 10px solid rgb(99, 94, 94);
+  }
+}
+
+.form-anna {
+  padding: 25px;
+  max-width: 35rem;
+  margin: 0 auto;
+}
+
+form {
+  /* Increase the form's max-width to make it larger */
+  max-width: 1024px;
+
+  /* Add some spacing around the form */
+  padding: 1rem;
+
+  /* Center the form on the page */
+  margin: 0 auto;
+
+  /* Add a background color and some shadow */
+  background-color: #f7fafc;
+  background-color: rgba(100, 79, 122, 0.548);
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  border: 10px solid rgb(99, 94, 94);
+}
+
+textarea {
+  /* Give the textarea a fixed height to prevent the text from moving */
+  height: 200px;
+}
+
+/* Style the label and input fields */
+label,
+input,
+textarea {
+  font-size: 1rem;
+  font-weight: 400;
+
+  /* Add some padding to the fields */
+  padding: 0.5rem;
+}
+
+/* Style the label */
+label {
+  /* Add a dark gray color to the label text */
+  color: #333;
+
+  /* Align the label text to the right */
+  text-align: right;
+}
+
+/* Style the input and textarea fields */
+input,
+textarea {
+  /* Add a light gray border to the fields */
+  border: 1px solid #ccc;
+
+  /* Add some rounded corners to the fields */
+  border-radius: 4px;
+
+  /* Add a light gray background color to the fields */
+  background-color: #fafafa;
+}
+
+/* Style the submit button */
+button[type="submit"] {
+  /* Add a purple background color to the button */
+  background-color: rgb(139, 131, 187);
+  border-color: rgb(139, 131, 187);
+
+  /* Add a white text color to the button */
+  color: #fff;
+
+  /* Add some padding to the button */
+  padding: 0.75rem 1.5rem;
+
+  /* Add some rounded corners to the button */
+  border-radius: 4px;
+
+  /* Add a text shadow to the button */
+  text-shadow: 0 1px 2px rgba(0, 0, 0, 0.25);
+
+  /* Add a hover effect to the button */
+  cursor: pointer;
+  transition: background-color 0.2s;
+  transition: all 0.15s ease-in-out;
+}
+
+button[type="submit"]:hover {
+  /* Change the background color on hover */
+  background-color: #7054aa;
+}
+
+/* Style the home button */
+.button-contact {
+  /* Add a purple background color to the button */
+  background-color: rgb(139, 131, 187);
+  border-color: rgb(139, 131, 187);
+
+  /* Add a white text color to the button */
+  color: #fff;
+
+  /* Add some padding to the button */
+  padding: 0.75rem 1.5rem;
+
+  /* Add some rounded corners to the button */
+  border-radius: 4px;
+
+  /* Add a text shadow to the button */
+  text-shadow: 0 1px 2px rgba(0, 0, 0, 0.25);
+
+  /* Add a hover effect to the button */
+  cursor: pointer;
+  transition: background-color 0.2s;
+  transition: all 0.15s ease-in-out;
+}
+
+.button-contact:hover {
+  background-color: #7054aa;
+}
+
+@media all and (min-width: 768px) {
+  /* Image-About */
+
+  .cartoon-contact {
+    max-width: 223%;
+    border-bottom: 10px solid rgb(99, 94, 94);
+  }
+
+  .form-anna {
+    padding: 25px;
+    max-width: 35rem;
+    margin: 0 auto;
+    margin-top: 15px;
+  }
+}
